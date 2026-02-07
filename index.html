@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Your Name</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Liquid Ether Background -->
+    <div id="liquid-ether-bg"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">Akshidha's Portfolio</a>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#expertise" class="nav-link">Expertise</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+                <li><a href="#contact" class="nav-link nav-cta">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero / About Me Section -->
+    <section id="about" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <p class="hero-greeting">Hello, I'm</p>
+                <h1 class="hero-name">Akshidha Unni</h1>
+                <h2 class="hero-title">AI & ML Engineer</h2>
+                <p class="hero-description">
+                    I'm a passionate developer who loves creating beautiful, functional, 
+                    and user-friendly applications. With expertise in modern web technologies, 
+                    I bring ideas to life through clean code and thoughtful design.
+                </p>
+                <div class="hero-cta">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                    <a href="Akshidha_Unni.pdf" class="btn btn-secondary" download><i class="fas fa-download"></i> Resume</a>
+                </div>
+                <div class="hero-social">
+                    <a href="https://github.com/Akshidha-Unni" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/akshidha-unni-5669271b0/" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="mailto:akshidha2002@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-wrapper">
+                    <img src="Profile.jpg" alt="Akshidha Unni" class="profile-image">
+                </div>
+                <div class="hero-shapes">
+                    <div class="shape shape-1"></div>
+                    <div class="shape shape-2"></div>
+                    <div class="shape shape-3"></div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll Down</span>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- Expertise Section -->
+    <section id="expertise" class="section expertise">
+        <div class="container">
+            <h2 class="section-title">What I Do</h2>
+            <p class="section-subtitle">Specialized skills and services I bring to the table</p>
+            
+            <div class="expertise-layout">
+                <div class="expertise-image">
+                    <div class="expertise-image-wrapper">
+                        <div id="letter-glitch-bg" class="letter-glitch-container"></div>
+                    </div>
+                </div>
+                <div class="accordion-list">
+                <div class="accordion-item">
+                    <button class="accordion-header" aria-expanded="false">
+                        <div class="accordion-title">
+                            <i class="fas fa-comments"></i>
+                            <span>LLM & RAG Development</span>
+                        </div>
+                        <i class="fas fa-chevron-down accordion-chevron"></i>
+                    </button>
+                    <div class="accordion-body">
+                        <ul>
+                            <li>Fine-tuning, prompt engineering, and retrieval-augmented generation pipelines</li>
+                            <li>Building context-aware assistants grounded in domain-specific knowledge bases</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-header" aria-expanded="false">
+                        <div class="accordion-title">
+                            <i class="fas fa-robot"></i>
+                            <span>AI Agents & Agentic Systems</span>
+                        </div>
+                        <i class="fas fa-chevron-down accordion-chevron"></i>
+                    </button>
+                    <div class="accordion-body">
+                        <ul>
+                            <li>Designing autonomous agents that reason, plan, and interact with tools and APIs</li>
+                            <li>Building multi-step agentic workflows over structured and unstructured data</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-header" aria-expanded="false">
+                        <div class="accordion-title">
+                            <i class="fas fa-cogs"></i>
+                            <span>End-to-End ML Systems</span>
+                        </div>
+                        <i class="fas fa-chevron-down accordion-chevron"></i>
+                    </button>
+                    <div class="accordion-body">
+                        <ul>
+                            <li>Data preprocessing, model training, hyperparameter tuning, and deployment</li>
+                            <li>Handling imbalanced datasets, noisy inputs, and production edge cases</li>
+                        </ul>
+                    </div>
+                </div>
+
+
+                <div class="accordion-item">
+                    <button class="accordion-header" aria-expanded="false">
+                        <div class="accordion-title">
+                            <i class="fas fa-search"></i>
+                            <span>Evaluation & Explainability</span>
+                        </div>
+                        <i class="fas fa-chevron-down accordion-chevron"></i>
+                    </button>
+                    <div class="accordion-body">
+                        <ul>
+                            <li>Metrics design, error analysis, model debugging, and performance benchmarking</li>
+                            <li>XAI techniques for transparent, trustworthy AI systems</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-header" aria-expanded="false">
+                        <div class="accordion-title">
+                            <i class="fas fa-brain"></i>
+                            <span>ML Engineering</span>
+                        </div>
+                        <i class="fas fa-chevron-down accordion-chevron"></i>
+                    </button>
+                    <div class="accordion-body">
+                        <ul>
+                            <li>Building scalable data pipelines, feature stores, and model serving infrastructure</li>
+                            <li>Optimizing models for latency, memory, and throughput in production environments</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section education">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <p class="section-subtitle">My academic journey and qualifications</p>
+            
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2024 - 2025</span>
+                        <br>
+                        <span class="timeline-date">CGPA: 3.9</span>
+                        <h3>MEng in Data Science, Analytics and Artificial Intelligence</h3>
+                        <h4>Carleton University </h4>
+                        <p>
+                            Graduated with a strong emphasis on machine learning, large language models, and agentic
+                            AI systems. Gained hands-on experience through end-to-end AI projects, including RAG pipelines,
+                            PEFT/LoRA fine-tuning, with a focus on practical, research-driven problem solving.
+                        </p>
+                        <div class="timeline-tags">
+                            <span>LLM</span>
+                            <span>Artificial Intelligence</span>
+                            <span>AI Agents</span>
+                        </div>
+                    </div>
+                </div>
+                
+                
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2020 - 2024</span>
+                        <br>
+                        <span class="timeline-date">CGPA: 3.8</span>
+                        <h3>Bachelor of Engineering in Computer Science & Engineering</h3>
+                        <h4>Anna University</h4>
+                        <p>
+                            Graduated 7th overall among 300+ students, demonstrating consistent academic excellence 
+                            and strong performance across the program. Focused on software engineering, data structures,
+                            algorithms, and machine learning. Active member of the NextGen AI Club.
+                        </p>
+                        <div class="timeline-tags">
+                            <span>Computer Science</span>
+                            <span>Data Structures</span>
+                            <span>Algorithms</span>
+                            <span>Machine Learning</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Working Experience Section -->
+    <section id="experience" class="section experience">
+        <div class="container">
+            <h2 class="section-title">Work Experience</h2>
+            <p class="section-subtitle">My professional journey and contributions</p>
+            
+            <div class="experience-grid">
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <div class="company-logo">
+                            <i class="fas fa-building"></i>
+                        </div>
+                        <div class="experience-meta">
+                            <span class="experience-date">Feb 2025 - June 2025</span>
+                            <span class="experience-type">Tech Startup</span>
+                        </div>
+                    </div>
+                    <h3>AI Engineer Intern</h3>
+                    <h4>DocumentPro</h4>
+                    <p>
+                        Conducted applied research and engineering to improve  
+                        document extraction and built a benchmarking framework to evaluate Large Language Models.
+                    </p>
+                    <div class="experience-tech">
+                        <span>Python</span>
+                        <span>OpenAI</span>
+                        <span>LangChain</span>
+                        <span>REST APIs</span>
+                        <span>Git</span>
+
+                    </div>
+                </div>
+                
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <div class="company-logo">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <div class="experience-meta">
+                            <span class="experience-date">Nov 2023 - May 2024</span>
+                            <span class="experience-type">Full-time</span>
+                        </div>
+                    </div>
+                    <h3>Data Science Associate</h3>
+                    <h4>Acies Global</h4>
+                    <p>
+                        Applied BiLSTM-based machine learning to detect customer churn and migration risks by combining
+                        textual and usage data, enabling data-driven retention strategies.
+                    </p>
+                  
+                    <div class="experience-tech">
+                        <span>Python</span>
+                        <span>SQL</span>
+                        <span>Snowflake</span>
+                        <span>Salesforce</span>
+                        <span>Tableau</span>
+
+                    </div>
+                </div>
+                
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <div class="company-logo">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <div class="experience-meta">
+                            <span class="experience-date">Sep 2025 - Dec 2025</span>
+                            <span class="experience-type">On Campus</span>
+                        </div>
+                    </div>
+                    <h3>Graduate Teaching Assistant</h3>
+                    <h4>Carleton University</h4>
+                    <p>
+                        Assisted in teaching a 3rd-year Algorithms course, supporting ~200 students
+                        on time complexity, dynamic programming, and graph algorithms.
+                    </p>
+                    
+                    <div class="experience-tech">
+                        <span>Algorithms</span>
+                        <span>Technical Communication</span>
+                        <span>Leadership</span>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <p class="section-subtitle">Some of my recent work and personal projects</p>
+            
+            <div class="projects-filter">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="genai">Gen AI</button>
+                <button class="filter-btn" data-filter="ml">ML</button>
+                <button class="filter-btn" data-filter="dl">DL & Computer Vision</button>
+            </div>
+            
+            <div class="projects-grid">
+                <div class="project-card" data-category="genai">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-stethoscope"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/Akshidha-Unni/Personalizing-Medical-Assistant-with-Parameter-Efficient-Fine-Tuning-PEFT-and-RAG" class="project-link" aria-label="View Code">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Context-Aware Medical Assistant using PEFT (LoRA) and RAG</h3>
+                        <div class="project-tldr">
+                            <p>Fine-tuned a medical LLM using LoRA for efficient adaptation, paired with RAG to deliver accurate, context-aware clinical responses grounded in medical literature.</p>
+                        </div>
+                        <div class="project-details">
+                            <button class="details-toggle" aria-expanded="false">
+                                <span>Challenges & Approach</span>
+                                <i class="fas fa-chevron-down"></i>
+                            </button>
+                            <div class="details-content">
+                                <div class="detail-item">
+                                    <div class="detail-icon challenge"><i class="fas fa-exclamation-triangle"></i></div>
+                                    <div>
+                                        <h4>Challenge</h4>
+                                        <p>Full fine-tuning of large medical LLMs was computationally prohibitive, and generic models lacked domain-specific accuracy for clinical queries.</p>
+                                    </div>
+                                </div>
+                                <div class="detail-item">
+                                    <div class="detail-icon solution"><i class="fas fa-lightbulb"></i></div>
+                                    <div>
+                                        <h4>Solution</h4>
+                                        <p>Applied Parameter-Efficient Fine-Tuning (LoRA) to adapt the model with minimal compute, and integrated Retrieval-Augmented Generation to ground responses and reduce hallucinations by retrieving verified medical documents.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-tech">
+                            <span>LoRA</span>
+                            <span>RAG</span>
+                            <span>LangChain</span>
+                            <span>HuggingFace</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-category="genai">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-home"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/Akshidha-Unni/XAI-for-IoT-Anomaly-Detection-in-Smart-Homes-With-TinyLlama" class="project-link" aria-label="View Code">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>LLM-Assisted Explainable Anomaly Detection for Smart Homes</h3>
+                        <div class="project-tldr">
+                            <p>Built an XAI pipeline that detects IoT anomalies in smart homes and uses TinyLlama to generate human-readable explanations for non-technical users.</p>
+                        </div>
+                        <div class="project-details">
+                            <button class="details-toggle" aria-expanded="false">
+                                <span>Challenges & Approach</span>
+                                <i class="fas fa-chevron-down"></i>
+                            </button>
+                            <div class="details-content">
+                                <div class="detail-item">
+                                    <div class="detail-icon challenge"><i class="fas fa-exclamation-triangle"></i></div>
+                                    <div>
+                                        <h4>Challenge</h4>
+                                        <p>Traditional anomaly detectors flag issues but provide no explanation, making it hard for homeowners to understand or act on alerts.</p>
+                                    </div>
+                                </div>
+                                <div class="detail-item">
+                                    <div class="detail-icon solution"><i class="fas fa-lightbulb"></i></div>
+                                    <div>
+                                        <h4>Solution</h4>
+                                        <p>Combined anomaly detection models with TinyLlama to translate technical detections into plain-English explanations, bridging the gap between ML output and user understanding.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-tech">
+                            <span>TinyLlama</span>
+                            <span>XAI</span>
+                            <span>IoT</span>
+                            <span>Python</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-category="genai">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-fire"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/Akshidha-Unni/Transformers-from-Scratch-Using-PyTorch" class="project-link" aria-label="View Code">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Transformers from Scratch using PyTorch</h3>
+                        <div class="project-tldr">
+                            <p>Implemented the full Transformer architecture from scratch in PyTorch -- including multi-head attention, positional encoding, and encoder-decoder blocks -- to deeply understand the internals.</p>
+                        </div>
+                        <div class="project-details">
+                            <button class="details-toggle" aria-expanded="false">
+                                <span>Challenges & Approach</span>
+                                <i class="fas fa-chevron-down"></i>
+                            </button>
+                            <div class="details-content">
+                                <div class="detail-item">
+                                    <div class="detail-icon challenge"><i class="fas fa-exclamation-triangle"></i></div>
+                                    <div>
+                                        <h4>Challenge</h4>
+                                        <p>Understanding the math behind scaled dot-product attention and getting the tensor dimensions right across multi-head attention layers was non-trivial.</p>
+                                    </div>
+                                </div>
+                                <div class="detail-item">
+                                    <div class="detail-icon solution"><i class="fas fa-lightbulb"></i></div>
+                                    <div>
+                                        <h4>Solution</h4>
+                                        <p>Broke down the "Attention Is All You Need" paper step-by-step, implemented each component independently with unit tests, then composed them into the full architecture.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-tech">
+                            <span>PyTorch</span>
+                            <span>Transformers</span>
+                            <span>NLP</span>
+                            <span>Python</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-category="ml">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/Akshidha-Unni/Predicting-ADHD-From-High-Dimensional-Neuroimaging-Data" class="project-link" aria-label="View Code">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>ADHD Prediction from High-Dimensional Neuroimaging Data</h3>
+                        <div class="project-tldr">
+                            <p>Developed ML models to predict ADHD from fMRI brain scans, tackling the curse of dimensionality with feature selection and ensemble methods.</p>
+                        </div>
+                        <div class="project-details">
+                            <button class="details-toggle" aria-expanded="false">
+                                <span>Challenges & Approach</span>
+                                <i class="fas fa-chevron-down"></i>
+                            </button>
+                            <div class="details-content">
+                                <div class="detail-item">
+                                    <div class="detail-icon challenge"><i class="fas fa-exclamation-triangle"></i></div>
+                                    <div>
+                                        <h4>Challenge</h4>
+                                        <p>Neuroimaging data has thousands of features with limited samples, leading to severe overfitting and poor generalization with standard classifiers.</p>
+                                    </div>
+                                </div>
+                                <div class="detail-item">
+                                    <div class="detail-icon solution"><i class="fas fa-lightbulb"></i></div>
+                                    <div>
+                                        <h4>Solution</h4>
+                                        <p>Applied dimensionality reduction techniques and robust feature selection pipelines, combined with cross-validated ensemble models to achieve reliable predictions.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-tech">
+                            <span>Scikit-learn</span>
+                            <span>fMRI</span>
+                            <span>Feature Selection</span>
+                            <span>Python</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-category="ml">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-line-chart"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/Akshidha-Unni/Metar-Data-Forecasting-Using-Facebook-Prophet" class="project-link" aria-label="View Code">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>METAR Time Series Forecasting using FBProphet</h3>
+                        <div class="project-tldr">
+                            <p>Forecasted aviation weather (METAR) data using Facebook Prophet, enabling better flight planning through accurate temperature and visibility predictions.</p>
+                        </div>
+                        <div class="project-details">
+                            <button class="details-toggle" aria-expanded="false">
+                                <span>Challenges & Approach</span>
+                                <i class="fas fa-chevron-down"></i>
+                            </button>
+                            <div class="details-content">
+                                <div class="detail-item">
+                                    <div class="detail-icon challenge"><i class="fas fa-exclamation-triangle"></i></div>
+                                    <div>
+                                        <h4>Challenge</h4>
+                                        <p>METAR data has irregular reporting intervals, missing values, and multiple seasonal patterns (daily, yearly) that standard models struggle to capture.</p>
+                                    </div>
+                                </div>
+                                <div class="detail-item">
+                                    <div class="detail-icon solution"><i class="fas fa-lightbulb"></i></div>
+                                    <div>
+                                        <h4>Solution</h4>
+                                        <p>Leveraged FBProphet's additive decomposition to model multiple seasonalities, handled missing data with interpolation, and tuned changepoint sensitivity for accurate forecasts.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-tech">
+                            <span>FBProphet</span>
+                            <span>Pandas</span>
+                            <span>Plotly</span>
+                            <span>Python</span>
+                            <span>ARIMA</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-category="dl">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-bone"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/Akshidha-Unni/Osteoporosis-Image-Classification-using-SAM-and-Transfer-Learning" class="project-link" aria-label="View Code">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Osteoporosis Classification with SAM-Guided Segmentation and Transfer Learning</h3>
+                        <div class="project-tldr">
+                            <p>Classified osteoporosis severity from X-ray images by combining SAM-based bone segmentation with transfer learning to achieve high diagnostic accuracy.</p>
+                        </div>
+                        <div class="project-details">
+                            <button class="details-toggle" aria-expanded="false">
+                                <span>Challenges & Approach</span>
+                                <i class="fas fa-chevron-down"></i>
+                            </button>
+                            <div class="details-content">
+                                <div class="detail-item">
+                                    <div class="detail-icon challenge"><i class="fas fa-exclamation-triangle"></i></div>
+                                    <div>
+                                        <h4>Challenge</h4>
+                                        <p>Raw X-ray images contain irrelevant background noise, and limited labeled medical datasets make training deep classifiers from scratch unreliable.</p>
+                                    </div>
+                                </div>
+                                <div class="detail-item">
+                                    <div class="detail-icon solution"><i class="fas fa-lightbulb"></i></div>
+                                    <div>
+                                        <h4>Solution</h4>
+                                        <p>Used Segment Anything Model (SAM) to isolate bone regions, then applied transfer learning with pre-trained CNNs on the segmented images to improve classification accuracy with limited data.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-tech">
+                            <span>SAM</span>
+                            <span>Transfer Learning</span>
+                            <span>PyTorch</span>
+                            <span>OpenCV</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="section testimonials">
+        <div class="container">
+            <h2 class="section-title">Testimonials</h2>
+            <p class="section-subtitle">What people say about working with me</p>
+            
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-quote">
+                        <i class="fas fa-quote-left"></i>
+                    </div>
+                    <p class="testimonial-text">
+                        "It was great working with Akshidha for a short while. She's got a good ability to grasp
+                        concepts quickly and start contributing within a short period of time. For example, her
+                        work on building a system to evaluate various OCR methods is proving to be really useful."
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar">
+                            <i class="fas fa-user-circle"></i>
+                        </div>
+                        <div class="testimonial-info">
+                            <h4>Abizer Jafferjee</h4>
+                            <span>Founder & CEO, DocumentPro</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-quote">
+                        <i class="fas fa-quote-left"></i>
+                    </div>
+                    <p class="testimonial-text">
+                        "I’ve worked with Akshidha for about 6 months. She was hired as an intern and after a month 
+                        of training, worked on actual client project as a member of my team. Akshidha showed genuine 
+                        curiosity and dedication right from the start. She showed the right learning attitude towards 
+                        training going beyond and showed a good intuitive grasp of basic fundamentals. The same continued
+                        when she handled data transformation and model building tasks for the client. I also appreciate her 
+                        professionalism and that she has been a good team player throughout. Wishing her best of luck on all 
+                        future endeavours.
+
+                        "
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar">
+                            <i class="fas fa-user-circle"></i>
+                        </div>
+                        <div class="testimonial-info">
+                            <h4>Vineet Agarwal</h4>
+                            <span>Senior Engagement Partner - Data Science, Acies Global</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-subtitle">Let's work together on your next project</p>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <a href="mailto:akshidha2002@gmail.com">akshidha2002@gmail.com</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Location</h4>
+                            <p>Ottawa, Canada</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Phone</h4>
+                            <a href="tel:+16132929177">+1 (613) 292-9177</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-social">
+                        <a href="https://github.com/Akshidha-Unni" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/akshidha-unni-5669271b0/" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" required placeholder="John Doe">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Your Email</label>
+                        <input type="email" id="email" name="email" required placeholder="john@example.com">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" required placeholder="Project Inquiry">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required placeholder="Tell me about your project..."></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary btn-submit">
+                        <span>Send Message</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2026 Akshidha Unni. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="liquid-ether.js"></script>
+    <script src="letter-glitch.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
